@@ -54,11 +54,59 @@ void VarTypes(){
     std::cout << reddit << std::endl;
 }
 
+void Restaurant() {
+    double pizza = 40;
+    double coke = 14.99;
+    double total = pizza + coke;
+    std::cout << "Total: "; std::cout << total << std::endl;
+}
 
+void Temperature() { //Fah > Cel
+    double fah = 32; //Actual temp.
+    double cel = (fah - 32) / 1.8;
+    std::cout << "Temperature in celcius is: " << cel << std::endl;
+}
 
+void GameOfThrones() {
+    std::string decorated = "Felipe";
+    std::cout << "In the name of the Warrior, I charge you to be brave.\nIn the name of the Father, I charge you to be just.\nIn the name of the Mother, I charge you to defend the innocent.\nArise " << decorated << ", a knight of the Seven Kingdoms." << std::endl;
+}
 
+void LoginUser() {
+    std::string username;
+
+    std::cout << "Enter username: ";
+    std::cin >> username;
+
+    std::cout << "Logado como " << username << std::endl;
+}
+
+void mom() {
+    double mes1;
+    double mes2;
+
+    std::cout << "Primeiro mês: ";  std::cin >> mes1;
+    std::cout << "Segundo mês: ";   std::cin >> mes2;
+
+    double mom = (mes2 - mes1) / mes1 * 100;
+
+    std::cout << "O troco é:" << mom << std::endl;
+}
+
+void CatYear() {
+    double gato;
+
+    std::cout << "Welcome to the Cat Years program! This only works for cats older than 2 years old." << std::endl;
+    std::cout << "Enter your cat year's: "; std::cin >> gato;
+
+    double idadegato = (gato - 2) * 4 + 24;
+
+    std::cout << "Your cat is " << idadegato << " years old in human years." << std::endl;
+     
+}
 
 int main() {
     //Run
-    VarTypes();
+    CatYear();
 }
+
