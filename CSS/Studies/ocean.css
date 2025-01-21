@@ -1,0 +1,21 @@
+ol, ul{
+    border: 1px solid;
+    width: 200px;
+}
+
+ul{
+    background-color: lightgreen;
+}
+
+ol{
+    background-color: skyblue;
+    color: white;
+}
+
+ul>li{
+    text-decoration: underline wavy 3px brown;
+}
+
+ol>li{
+    text-decoration: underline dotted 3px indigo;
+}

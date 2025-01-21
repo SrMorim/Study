@@ -1,0 +1,15 @@
+#first-color {
+    color: red;
+  }
+  
+  #second-color {
+    color: green;
+  }
+  
+  #third-color {
+    color: yellow;
+  }
+  
+body{
+    background-color: antiquewhite;
+}

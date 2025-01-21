@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdio.h>
+#include <cstdlib>
 
 void HelloWorld() {
     std::cout << "Hello world!!!\n" << std::endl;
@@ -81,7 +82,7 @@ void LoginUser() {
     std::cout << "Logado como " << username << std::endl;
 }
 
-void mom() {
+void MoM() {
     double mes1;
     double mes2;
 
@@ -102,11 +103,50 @@ void CatYear() {
     double idadegato = (gato - 2) * 4 + 24;
 
     std::cout << "Your cat is " << idadegato << " years old in human years." << std::endl;
-     
 }
+
+void Coin() {
+    srand(time(NULL));
+
+    int num = std::rand() % 2;  // Generates a random number that's either 0 or 1
+
+    if (num > 0.5) { 
+        std::cout << "Heads\n";
+    }
+    else { 
+    std::cout << "Tails\n";
+    }
+}
+
+void febre() {
+    double temperatura;
+
+    std::cout << "Quantos gráus tem?: "; std::cin >> temperatura;
+
+    if(temperatura > 38){
+        std::cout << "Tá com febre.\n";
+    } else {
+        std::cout << "Tá de boa.\n";
+    }
+}
+
+void Dices() {
+    srand(time(NULL));
+    
+    int dice = std::rand() % 6;
+
+    std::cout << "Resultado: " << dice << std::endl;
+}
+
+void FortuneCookies() {
+    srand(time(NULL));
+
+}
+
+
 
 int main() {
-    //Run
-    CatYear();
-}
 
+    //Run
+    Dices();
+}
