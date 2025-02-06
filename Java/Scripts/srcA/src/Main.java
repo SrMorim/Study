@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         // Rodar Exercício //
-        toplist(); //<--- aqui
+        soma(); //<--- aqui
     }
     // Exercícios Abaixo //
     static void helloworld() {
@@ -37,8 +37,10 @@ public class Main {
         System.out.println("======= 🎵 🎵 🎵 🎵 🎵 🎵 🎵 🎵 ========");
     }
 
-
-
-
-
+    static void soma() {
+        int a = 10;
+        int b = 10;
+        int c = a + b;
+        System.out.println(c);
+    }
 }
