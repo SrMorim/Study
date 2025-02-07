@@ -1,13 +1,9 @@
 //Imports
 import java.util.Scanner;
 
+//Head
 public class Main {
-    public static void main(String[] args) {
-        // Rodar Exercício //
-        meow(); //<--- aqui
-    }
-
-    // Exercícios Abaixo //
+    //Body
     static void helloworld() {
         System.out.println("Hello, World!");
     }
@@ -165,13 +161,49 @@ public class Main {
 
         if (temgato) {
             System.out.println("MEOW para 20% de desconto em itens para gatos.");
-        } if (temcachorro) {
+        } else if (temcachorro) {
             System.out.println("WOOF para 20% de desconto em itens para cães.");
-        } else if (temgato && temcachorro) {
-            System.out.println("MEOW e WOOF para 20% de desconto em itens para gatos e cachorros.");
         } else {
             System.out.println("Bem-vindo à loja Pets Pets Pets!");
         }
     }
 
+    static void montanharussa() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Digite sua altura: ");int altura = scanner.nextInt();
+        System.out.print("Digite seu peso: ");int peso = scanner.nextInt();
+
+        if (peso > 40 && altura > 120) {
+            System.out.println("Pode entrar!");
+        } else {
+            System.out.println("Desculpe, mas não pode entrar.");
+        }
+
+    }
+
+    static void exrepetir() {
+        int num = 1;
+
+        while (num < 10) {
+            System.out.print(num);
+            num = num + 1;
+        }
+    }
+
+    static void team() {
+        int x = 1;
+
+        while (x <= 15) {
+            System.out.println("LET'S GO CELTICS!");
+            x++;
+        }
+    }
+
+
+
+    //Main
+    public static void main(String[] args) {
+        // Rodar Exercício //
+        team(); //<--- aqui
+    }
 }
