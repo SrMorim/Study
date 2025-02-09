@@ -1,15 +1,14 @@
-//Imports
+//Libs
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.ArrayList;
 
-//Head
 public class Main {
-    //Body
+    //Começando Java apartir do Codedéx//
     static void helloworld() {
         System.out.println("Hello, World!");
     }
-    //Codedéx
+
     static void receita() {
         System.out.println("Receita de Yogurt maneirin");
         System.out.println("[1]Pega uma tigela");
@@ -269,9 +268,9 @@ public class Main {
         }
     }
 
-    static int somar(int a, int b) {
-        int soma = a + b;
-        return soma;
+    static double multi(double a, double b){
+        double muiltiplicar = a * b;
+        return muiltiplicar;
     }
 
 
@@ -281,6 +280,7 @@ public class Main {
                     //<--- aqui
 
         // Rodar atividades de funções //
-        somar(20, 30);
+        Double multiplicar = multi(12, 3);
+        System.out.println(multiplicar);
     }
 }
