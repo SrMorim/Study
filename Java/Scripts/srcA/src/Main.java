@@ -1,5 +1,7 @@
 //Imports
 import java.util.Scanner;
+import java.util.Arrays;
+import java.util.ArrayList;
 
 //Head
 public class Main {
@@ -7,7 +9,7 @@ public class Main {
     static void helloworld() {
         System.out.println("Hello, World!");
     }
-
+    //Codedéx
     static void receita() {
         System.out.println("Receita de Yogurt maneirin");
         System.out.println("[1]Pega uma tigela");
@@ -199,11 +201,86 @@ public class Main {
         }
     }
 
+    static void limite() {
+        int num = 1;
+
+        for (int i = 0; i < 10; i++) {
+            System.out.print(num);
+            num++;
+        }
+    }
+
+    static void loopfor() {
+        String msg = "i will be great at programmer.";
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println(msg);
+        }
+    }
+
+    static void apocalipse() {
+        String[] personalPack = {"Kit médico", "kit sobrevivência básico", "case com documentos","molle com barra de sereais","Cantil"};
+        System.out.println(personalPack[0]);
+        System.out.println(personalPack[3]);
+        System.out.println(personalPack.length);
+    }
+
+    static void keys() {
+        int[] keys = {2348, 2345823, 654, 30458, 5049, 589458, 3248238,  2374, 4234, 87756, 45654, 4654, 4566, 465465, 908, 798, 678, 67856785, 100, 234852, 23485, 456654, 543, 324534, 45678, 354, 345423, 23423, 5685, 98567, 23465, 6987, 456, 456, 798};
+
+        for (int i = 0; i < keys.length; i++ ) {
+            System.out.println(keys[i]);
+            if (keys[i] == 100) {
+                System.out.println("Achou a chave dourada!");
+                break;
+            }
+        }
+    }
+
+    static void playlist() {
+        int[] playlistA = {
+                3094234, 12323, 90990, 373737, 128732, 4388934, 2343947, 6548234, 234823, 4568,
+                2345234, 234234, 678768, 6456, 787, 46456, 678567, 354345, 23423, 645745, 23423,
+                2435423, 786768, 678786
+        };
+        Arrays.sort(playlistA);
+
+        int[] playlistB = {
+                234823, 678786, 354345, 3094234, 6456, 678567, 23423, 786768,
+                46456, 128732, 6548234, 234234, 4568, 4388934, 23423, 12323,
+                2343947, 2435423, 645745, 678768, 2345234, 90990, 373737, 787
+        };
+        Arrays.sort(playlistB);
+
+        if (Arrays.equals(playlistA, playlistB)) {
+            System.out.println("Playlists iguais");
+        } else {
+            System.out.println("Não são iguais.");
+        }
+
+
+    }
+
+    static void funcoes(int temp) {
+        if (temp <= 32) {
+            System.out.println("Tá de boa");
+        } else {
+            System.out.println("TÁ QUENTE AAAAAAAAAAAAAAAAAAAAAAAAAH");
+        }
+    }
+
+    static int somar(int a, int b) {
+        int soma = a + b;
+        return soma;
+    }
 
 
     //Main
     public static void main(String[] args) {
         // Rodar Exercício //
-        team(); //<--- aqui
+                    //<--- aqui
+
+        // Rodar atividades de funções //
+        somar(20, 30);
     }
 }
