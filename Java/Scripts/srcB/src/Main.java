@@ -103,12 +103,69 @@ public class Main {
 
     //Nível 2: Estruturas Condicionais e Laços de Repetição//
     static void major() {
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Digite o primeiro valor: "); int n1 = scanner.nextInt();
+        System.out.print("Digite o segundo valor: "); int n2 = scanner.nextInt();
+        System.out.print("Digite o terceiro valor: "); int n3 = scanner.nextInt();
+
+        if (n1 > n2 && n1 > n3) {
+            System.out.println("o maior número é: " + n1);
+        } else if (n2 > n1 && n2 > n3) {
+            System.out.println("O maior número é: " + n2);
+        } else {
+            System.out.println("O maior número é: " + n3);
+        }
+    }
+
+    static void minor() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite o primeiro valor: "); int n1 = scanner.nextInt();
+        System.out.print("Digite o segundo valor: "); int n2 = scanner.nextInt();
+        System.out.print("Digite o terceiro valor: "); int n3 = scanner.nextInt();
+
+        if (n1 < n2 && n1 < n3) {
+            System.out.println("o menor número é: " + n1);
+        } else if (n2 < n1 && n2 < n3) {
+            System.out.println("O menor número é: " + n2);
+        } else {
+            System.out.println("O menor número é: " + n3);
+        }
+
+    }
+
+    static void numverify() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Digite o valor: ");int num = scanner.nextInt();
+
+        if (num >= 1 ) {
+            System.out.println("Valor positivo.");
+        } else if (num == 0) {
+            System.out.println("Nulo");
+        } else {
+            System.out.println("Valor negativo.");
+        }
+
+    }
+
+    static void tabuada() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Qual tabuada quer ver? (Digite o número): "); int num = scanner.nextInt();
+
+        for (int i = 0; i < 11; i++){
+            int tab = num * i;
+            System.out.println(num + "x" + i + "=" + tab);
+        }
+    }
+
+    static void primenum() {
+        Scanner scanner = new Scanner(System.in);
     }
 
     //Main
     public static void main(String[] args) {
         // Rodar Atividades //
-        major(); //<-- Aqui
+        tabuada(); //<-- Aqui
     }
 }
