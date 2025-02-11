@@ -1,5 +1,8 @@
 //Libs//
 import java.util.Scanner;
+import java.util.Arrays;
+import java.util.ArrayList;
+
 //Body
 public class Main {
     //100 Exercícios em Java para praticar.
@@ -159,13 +162,43 @@ public class Main {
         }
     }
 
-    static void primenum() {
+    //Nível 3: Arrays e Strings
+    static void introarray() {
         Scanner scanner = new Scanner(System.in);
+        ArrayList<Integer> numeros = new ArrayList<>();
+
+        for (int i = 0; i < 5; i++) {
+            System.out.print("Digite um valor: ");int num = scanner.nextInt();
+            numeros.add(num);
+        }
+
+        System.out.println(numeros);
+
     }
+
+    static void arraypares() {
+        ArrayList<Integer> numeros = new ArrayList<>();
+        Scanner scanner = new Scanner(System.in);
+
+
+
+        for (int i = 0; i < 10; i++) {
+            System.out.print("Digite um valor: ");int num = scanner.nextInt();
+
+            int pro = num % 2;
+
+            if (pro == 0) {
+                numeros.add(num);
+            }
+        }
+
+        System.out.println(numeros);
+    }
+
 
     //Main
     public static void main(String[] args) {
         // Rodar Atividades //
-        tabuada(); //<-- Aqui
+        arraypares(); //<-- Aqui
     }
 }
