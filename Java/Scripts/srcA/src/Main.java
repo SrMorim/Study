@@ -6,7 +6,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 import java.util.ArrayList;
 
-
+//Code
 public class Main {
     //Codedéx Exercises
     class codedex {
@@ -223,20 +223,30 @@ public class Main {
             }
         }
 
-        static void ex23() {}
+        static boolean ex23(int a, int b, int c) {
+            int sum = a + b + c;
 
-        static void ex24() {}
+            if (sum == 222) {
+                System.out.println("True");
+                return true;
+            } else {
+                System.out.println("False");
+                return false;
+            }
 
-        static void ex25() {}
+        }
 
-        static void ex26() {}
+        static void ex24(int num) {
+            System.out.println("Vamos retornar para o número" + num);
+        }
 
-        static void ex27() {}
+        static double ex25(String nome, int peso, String unit) {
+            double lua = peso * (1.62/9.81);
 
-        static void ex28() {}
+            System.out.println("Hi " + nome + " Your weight on Earth is " + peso + unit + " and your weight on the moon would be about " + lua);
 
-        static void ex29() {}
-
+            return lua;
+        }
     }
 
     //100 Exercises to Pratice
@@ -444,6 +454,6 @@ public class Main {
 
     public static void main(String[] args) {
         //Rodar Tarefas
-        exercise.level3.ex23();
+        exercise.level2.ex14();
     }
 }
