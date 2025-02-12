@@ -1,6 +1,7 @@
 //Libs
 import javax.swing.*;
 import javax.swing.plaf.nimbus.State;
+import javax.swing.plaf.synth.SynthStyleFactory;
 import java.lang.reflect.Array;
 import java.util.Scanner;
 import java.util.Arrays;
@@ -249,9 +250,81 @@ public class Main {
         }
     }
 
+    //100 Exercises
+    class exercises {
+        class level1 {
+            static void ex1() {
+                System.out.println("Hello, World!");
+            }
+
+            static void ex2() {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Primeiro valor: ");short n1 = sc.nextShort();
+                System.out.print("Segundo valor: ");short n2 = sc.nextShort();
+
+                int r = n1 + n2;
+
+                System.out.println("O resultado é: " + r);
+            }
+
+            static void ex3() {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Digite o valor: ");byte n = sc.nextByte();
+
+                if (n % 2 == 0) {
+                    System.out.println(n + " é par");
+                } else {
+                    System.out.println(n + " é ímpar");
+                }
+
+        }
+
+            static void ex4() {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Digite o valor: "); byte n = sc.nextByte();
+
+                if (n > 0) {
+                    System.out.println(n + " é positivo");
+                } else if (n < 0) {
+                    System.out.println(n + " é negativo");
+                } else {
+                    System.out.println(n + " é nulo");
+                }
+            }
+
+            static void ex5() {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("qual a largura?: ");short l = sc.nextShort();
+                System.out.print("qual a altura?: ");short a = sc.nextShort();
+                System.out.print("a área do retângulo é: " + l*a);
+            }
+
+            static void ex6() {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Quantos graus Fahreinheit?: "); short f = sc.nextShort();
+
+                int c = (f-32)*5/9;
+
+                System.out.println("Está fazendo " + c + " lá fora.");
+            }
+
+            static void ex7() {
+                Scanner sc = new Scanner(System.in);
+                System.out.println("Digite o primeiro valor: "); short n1 = sc.nextShort();
+                System.out.println("Digite o segundo valor: "); short n2 = sc.nextShort();
+                System.out.println("Digite o terceiro valor: "); short n3 = sc.nextShort();
+
+                int m = (n1+n2+n3)/3;
+
+                System.out.println("a média desses valores é: " + m);
+            }
+
+            static void ex8() {}
+        }
+    }
     //Main
     public static void main(String[] args) {
         //Run Exercises
-        codedex.ex20();
+        exercises.level1.ex7();
     }
 }

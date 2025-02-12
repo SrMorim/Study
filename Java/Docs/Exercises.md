@@ -1,327 +1,328 @@
-# Lista de Exercícios para Lógica de Programação e POO em Java
+# Lista de Exercícios de Java para Praticar Lógica de Programação
 
-Este arquivo contém uma lista de 100 exercícios, organizados em 5 níveis de dificuldade. Cada nível possui 20 questões para exercitar a lógica de programação em Java e introduzir conceitos de Programação Orientada a Objetos (POO).
+Esta lista contém 100 exercícios de Java, organizados em 5 níveis de dificuldade. Os exercícios foram pensados para desenvolver a lógica de programação, começando pelos conceitos mais básicos até desafios mais avançados.
 
 ---
 
-## Nível 1 – Básico (Conceitos iniciais e operações simples)
+## Nível 1: Básico (20 exercícios)
 
-1. **Hello, World!**  
-   Crie um programa que exiba a mensagem “Hello, World!” no console.
+1. ~~Hello World~~  
+   ~~Escreva um programa que exiba a mensagem "Hello, World!" na tela.~~
 
-2. **Variável Inteira**  
-   Declare uma variável do tipo `int`, atribua um valor e exiba-o no console.
+2. ~~Soma Simples~~  
+   ~~Leia dois números inteiros e exiba a soma deles.~~
 
-3. **Soma Simples**  
-   Declare duas variáveis `int` e exiba a soma delas.
+3. ~~Par ou Ímpar~~  
+   ~~Leia um número inteiro e verifique se ele é par ou ímpar.~~
 
-4. **Verificação de Número**  
-   Leia um número do usuário e exiba se ele é positivo, negativo ou zero.
+4. ~~Positivo, Negativo ou Zero~~  
+   ~~Leia um número e informe se ele é positivo, negativo ou zero.~~
 
-5. **Área de Retângulo**  
-   Leia a base e a altura de um retângulo e calcule sua área.
+5. ~~Cálculo de Área~~  
+   ~~Leia a largura e a altura de um retângulo e calcule sua área.~~
 
-6. **Par ou Ímpar**  
-   Leia um número e verifique se ele é par ou ímpar.
+6. ~~Conversão de Temperatura~~  
+   ~~Converta uma temperatura em Celsius para Fahrenheit.~~
 
-7. **Múltiplos de um Número**  
-   Leia um número e imprima os 10 primeiros múltiplos dele.
+7. ~~Média Aritmética~~  
+   ~~Leia três números e calcule a média aritmética.~~
 
-8. **Contagem Crescente**  
-   Use um loop `for` para exibir os números de 1 a 10.
+8. **Conversão de String para Número**  
+   Converta um valor digitado como string para um número inteiro e exiba o resultado.
 
-9. **Contagem Decrescente**  
-   Use um loop `while` para exibir os números de 10 a 1.
+9. **Maior de Dois Números**  
+   Leia dois números e exiba o maior entre eles.
 
-10. **Maior de Dois Números**  
-    Leia dois números e imprima o maior deles.
+10. **Menor de Dois Números**  
+    Leia dois números e exiba o menor entre eles.
 
-11. **Maior e Menor de Três Números**  
-    Leia três números e exiba o maior e o menor entre eles.
+11. **Operações Básicas**  
+    Leia dois números e mostre o resultado da soma, subtração, multiplicação e divisão.
 
 12. **Tabuada**  
-    Leia um número e exiba sua tabuada de multiplicação (de 1 a 10).
+    Exiba a tabuada (de 1 a 10) de um número informado pelo usuário.
 
-13. **Contagem de Caracteres**  
-    Leia uma palavra e exiba a quantidade de caracteres que ela possui.
+13. **Verificação de Maioridade**  
+    Leia a idade de uma pessoa e informe se ela é maior de idade (18 anos ou mais).
 
-14. **Média de Notas**  
-    Leia três notas de um aluno, calcule e exiba a média.
+14. **Quadrado de um Número**  
+    Leia um número e exiba o seu quadrado.
 
-15. **Número Primo**  
-    Leia um número e verifique se ele é primo.
+15. **Cubo de um Número**  
+    Leia um número e exiba o seu cubo.
 
-16. **Inverter Número**  
-    Leia um número e exiba-o invertido (por exemplo, 1234 → 4321).
+16. **Conversão de Metros para Centímetros**  
+    Converta um valor em metros para centímetros.
 
-17. **Inverter String**  
-    Leia uma string e exiba-a invertida.
+17. **Antecessor e Sucessor**  
+    Leia um número e exiba seu antecessor e seu sucessor.
 
-18. **Soma de Sequência**  
-    Leia um número e calcule a soma de todos os números de 1 até ele.
+18. **Cálculo do Perímetro de um Quadrado**  
+    Leia o lado de um quadrado e calcule seu perímetro.
 
-19. **Conversão de Temperatura**  
-    Leia uma temperatura em Celsius e converta para Fahrenheit.
+19. **Cálculo da Circunferência**  
+    Leia o raio de um círculo e calcule sua circunferência (use π = 3.14).
 
-20. **Minutos em Horas**  
-    Leia uma quantidade de minutos e converta para horas e minutos.
-
----
-
-## Nível 2 – Intermediário (Arrays, strings e estruturas de controle)
-
-21. **Array de Números**  
-    Leia 10 números, armazene-os em um array e exiba todos os valores.
-
-22. **Ordenação de Nomes**  
-    Leia 5 nomes, armazene-os em um array e exiba-os em ordem alfabética.
-
-23. **Contagem de Vogais**  
-    Leia uma frase e conte quantas vogais ela possui.
-
-24. **Dígitos Individuais**  
-    Leia um número e exiba cada dígito separadamente.
-
-25. **Validação de Data**  
-    Leia dia, mês e ano e verifique se a data é válida.
-
-26. **Calculadora Simples**  
-    Implemente uma calculadora básica (soma, subtração, multiplicação, divisão) usando `switch-case`.
-
-27. **Maior e Menor em Array**  
-    Leia um array de inteiros e encontre o maior e o menor valor.
-
-28. **Sequência de Fibonacci**  
-    Leia um número e gere os termos da sequência de Fibonacci até esse número de termos.
-
-29. **Números Pares**  
-    Leia 10 números e exiba somente os que são pares.
-
-30. **Números Ímpares**  
-    Leia 10 números e exiba somente os que são ímpares.
-
-31. **Número Palíndromo**  
-    Leia um número e verifique se ele é palíndromo.
-
-32. **Palavras Palíndromas**  
-    Leia uma lista de palavras e identifique quais são palíndromos.
-
-33. **Substituir Caracteres**  
-    Leia uma string e substitua todas as ocorrências da letra “a” por “@”.
-
-34. **Média de Valores**  
-    Leia um array de inteiros e calcule a média dos valores.
-
-35. **Soma de Matriz**  
-    Leia uma matriz 3x3 e calcule a soma de todos os seus elementos.
-
-36. **Matriz Simétrica**  
-    Leia uma matriz 3x3 e verifique se ela é simétrica.
-
-37. **Separação de Pares e Ímpares**  
-    Leia 10 números, armazene os pares em um array e os ímpares em outro.
-
-38. **Sequência com Passo 2**  
-    Leia um número inteiro e exiba a sequência de 0 até ele, incrementando de 2 em 2.
-
-39. **Fatorial**  
-    Leia um número e calcule seu fatorial.
-
-40. **Número Perfeito**  
-    Leia um número e verifique se ele é perfeito (a soma de seus divisores, excluindo ele mesmo, é igual ao número).
+20. **Tempo de Viagem**  
+    Leia a distância a ser percorrida e a velocidade média; calcule o tempo de viagem.
 
 ---
 
-## Nível 3 – Introdução à Programação Orientada a Objetos (Classes e Objetos)
+## Nível 2: Intermediário (20 exercícios)
 
-41. **Classe Pessoa**  
-    Crie uma classe `Pessoa` com atributos `nome` e `idade` e um método para exibir seus dados. Instancie um objeto e teste.
+21. **Fatorial Iterativo**  
+    Leia um número inteiro e calcule seu fatorial usando laços de repetição.
 
-42. **Classe Retângulo**  
-    Crie uma classe `Retangulo` com atributos `base` e `altura` e métodos para calcular a área e o perímetro.
+22. **Série de Fibonacci**  
+    Gere os 10 primeiros termos da sequência de Fibonacci.
 
-43. **Conta Bancária**  
-    Crie uma classe `ContaBancaria` com atributos como número da conta e saldo, e métodos para `depositar`, `sacar` e `consultarSaldo`.
+23. **Verificador de Número Primo**  
+    Leia um número inteiro e verifique se ele é primo.
 
-44. **Aluno**  
-    Crie uma classe `Aluno` com atributos `nome`, `matricula` e um array de notas. Implemente métodos para calcular a média e verificar a aprovação.
+24. **Contagem de Dígitos**  
+    Leia um número e determine quantos dígitos ele possui.
 
-45. **Livro**  
-    Crie uma classe `Livro` com atributos `titulo`, `autor` e `numeroDePaginas`, e um método para exibir os dados do livro.
+25. **Soma dos Dígitos**  
+    Leia um número e exiba a soma de todos os seus dígitos.
 
-46. **Círculo**  
-    Crie uma classe `Circulo` com o atributo `raio` e métodos para calcular a área e a circunferência.
+26. **Número Invertido**  
+    Leia um número inteiro e exiba-o com os dígitos em ordem inversa.
 
-47. **Carro**  
-    Crie uma classe `Carro` com atributos `marca`, `modelo`, `ano` e métodos para simular ligar e desligar o carro.
+27. **Conversão de Horas para Minutos**  
+    Leia um valor em horas e converta-o para minutos.
 
-48. **Produto**  
-    Crie uma classe `Produto` com atributos `nome`, `preco` e `quantidadeEmEstoque`, e um método para calcular o valor total em estoque.
+28. **Soma dos Números Pares**  
+    Leia 10 números inteiros e calcule a soma apenas dos números pares.
 
-49. **Funcionário**  
-    Crie uma classe `Funcionario` com atributos `nome` e `salario` e um método para aplicar um aumento percentual.
+29. **Média de Valores**  
+    Leia uma sequência de números (enquanto o usuário não digitar um valor negativo) e calcule a média.
 
-50. **Construtores Sobrecarregados**  
-    Crie uma classe (por exemplo, `Circulo`) com construtores sobrecarregados para permitir a criação do objeto com ou sem valor inicial para o raio.
+30. **Maior e Menor Valores em Sequência**  
+    Leia 10 números inteiros e identifique o maior e o menor número.
 
-51. **Ponto no Plano**  
-    Crie uma classe `Ponto` que represente um ponto com coordenadas `x` e `y` e um método para calcular a distância entre dois pontos.
+31. **Contagem Regressiva**  
+    Exiba uma contagem regressiva de 10 até 0.
 
-52. **Triângulo**  
-    Crie uma classe `Triangulo` com atributos para os três lados e métodos para verificar se os lados formam um triângulo válido e calcular seu perímetro.
+32. **Exponenciação**  
+    Leia dois números (base e expoente) e calcule a potência (sem usar funções prontas).
 
-53. **Data**  
-    Crie uma classe `Data` com atributos `dia`, `mes` e `ano` e métodos para validar se a data informada é correta.
+33. **Ordenação Simples Crescente**  
+    Leia 5 números e exiba-os em ordem crescente.
 
-54. **Agenda de Contatos**  
-    Crie uma classe `Agenda` que contenha um array de objetos `Contato`. Crie também a classe `Contato` com atributos como `nome`, `telefone` e `email`, e métodos para adicionar, remover e buscar contatos.
+34. **Ordenação Simples Decrescente**  
+    Leia 5 números e exiba-os em ordem decrescente.
 
-55. **Empregado e Tempo de Serviço**  
-    Crie uma classe `Empregado` com atributos `nome`, `salario` e `dataContratacao`. Adicione um método para calcular o tempo de serviço com base na data atual.
+35. **Conversão de Decimal para Binário**  
+    Leia um número inteiro e exiba sua representação em binário.
 
-56. **Herança – Quadrado e Forma**  
-    Crie uma classe base `Forma` e uma classe `Quadrado` que herde de `Forma`, implementando métodos para calcular área e perímetro.
+36. **Soma de Série**  
+    Calcule a soma dos números de 1 até n, onde n é informado pelo usuário.
 
-57. **Polimorfismo – Animais**  
-    Crie uma classe `Animal` com um método `emitirSom()`. Em seguida, crie as classes `Cachorro` e `Gato` que estendam `Animal` e sobrescrevam o método `emitirSom()`.
+37. **Multiplicação por Soma Repetida**  
+    Implemente a multiplicação de dois números utilizando apenas operações de soma.
 
-58. **Empréstimo**  
-    Crie uma classe `Emprestimo` com atributos `valor`, `taxaJuros` e `numeroParcelas` e um método para calcular o valor das parcelas.
+38. **Conversão de Fahrenheit para Celsius**  
+    Leia uma temperatura em Fahrenheit e converta-a para Celsius.
 
-59. **Calculadora com Sobrecarga**  
-    Crie uma classe `Calculadora` com métodos para somar, subtrair, multiplicar e dividir. Utilize sobrecarga de métodos para operações com dois e três parâmetros.
+39. **Verificador de Ano Bissexto**  
+    Leia um ano e verifique se ele é bissexto.
 
-60. **Implementando uma Pilha**  
-    Crie uma classe `Pilha` que implemente as operações básicas de uma pilha (`push`, `pop` e `peek`) utilizando arrays.
-
----
-
-## Nível 4 – Conceitos Avançados de POO e Estruturas de Dados
-
-61. **Agenda com ArrayList**  
-    Implemente uma classe `Agenda` utilizando `ArrayList` para armazenar contatos. Crie métodos para adicionar, remover, buscar e listar contatos.
-
-62. **Interface de Operação Matemática**  
-    Crie uma interface `OperacaoMatematica` com um método `calcular()`. Implemente classes como `Soma`, `Subtracao`, `Multiplicacao` e `Divisao` que a utilizem.
-
-63. **Tratamento de Exceções**  
-    Crie uma classe que simule a divisão de dois números, tratando a exceção de divisão por zero e exibindo uma mensagem apropriada.
-
-64. **Jogo da Velha**  
-    Desenvolva uma classe `JogoDaVelha` que utilize uma matriz para representar o tabuleiro e implemente a lógica para jogadas, verificação de vitórias e empates.
-
-65. **Cadastro de Usuários com HashMap**  
-    Crie uma classe `CadastroDeUsuarios` que armazene dados de usuários em um `HashMap`, utilizando o e-mail como chave. Implemente métodos para adicionar, remover e buscar usuários.
-
-66. **Conversor de Moedas com Enum**  
-    Crie uma classe `ConversorDeMoedas` que utilize uma enumeração para representar diferentes moedas e métodos para converter valores entre elas, usando taxas de câmbio fixas.
-
-67. **Jogo da Forca**  
-    Desenvolva uma classe `JogoDaForca` que escolha uma palavra aleatória (de um array ou lista) e permita que o usuário tente adivinhá-la, informando erros e acertos.
-
-68. **Turma de Estudantes**  
-    Crie uma classe `Estudante` e outra classe `Turma` que contenha um `ArrayList` de estudantes. Implemente métodos para calcular a média da turma e listar os estudantes aprovados.
-
-69. **Sistema Bancário Simples**  
-    Crie uma classe `Banco` que contenha uma lista de objetos `ContaBancaria`. Implemente funcionalidades para cadastrar contas, realizar transferências e listar contas.
-
-70. **Registro de Vendas**  
-    Crie uma classe `RegistroDeVendas` que utilize uma estrutura de dados adequada para armazenar vendas diárias e métodos para calcular o total vendido em um determinado período.
-
-71. **Sistema de Biblioteca**  
-    Crie uma classe `SistemaDeBiblioteca` que permita cadastrar livros, gerenciar empréstimos e devoluções, utilizando uma estrutura de dados para controlar os livros disponíveis e os emprestados.
-
-72. **Ordenação de Funcionários**  
-    Crie uma classe `Funcionario` que implemente a interface `Comparable` para possibilitar a ordenação por salário. Teste a ordenação com uma coleção.
-
-73. **Jogo de Cartas**  
-    Desenvolva uma classe `JogoDeCartas` que simule o embaralhamento e a distribuição de cartas de um baralho. Utilize `ArrayList` e o método `Collections.shuffle`.
-
-74. **Sistema de Votação**  
-    Crie uma classe `SistemaDeVotacao` que permita cadastrar candidatos e registrar votos. Utilize um `HashMap` para associar cada candidato ao número de votos recebidos.
-
-75. **Fibonacci Recursivo com Otimização**  
-    Crie uma classe `FibonacciRecursivo` que calcule o n-ésimo número da sequência de Fibonacci utilizando recursão. Utilize memoização para melhorar o desempenho.
-
-76. **Árvore Binária de Busca**  
-    Implemente uma classe `ArvoreBinaria` com métodos para inserir e buscar elementos em uma árvore binária de busca.
-
-77. **Algoritmos de Ordenação**  
-    Crie uma classe `Ordenacao` que contenha métodos para ordenar arrays utilizando algoritmos como bubble sort, selection sort e insertion sort.
-
-78. **Sistema de Login com Tratamento de Erros**  
-    Desenvolva uma classe `SistemaDeLogin` que simule a autenticação de usuários, tratando exceções para login inválido e bloqueando o acesso após 3 tentativas.
-
-79. **Conversor de Unidades**  
-    Crie uma classe `ConversorDeUnidades` que permita converter diferentes unidades de medida (por exemplo, quilômetros para milhas, Celsius para Fahrenheit).
-
-80. **Calculadora Científica**  
-    Crie uma classe `CalculadoraCientifica` que estenda a classe `Calculadora` (do exercício 59) e adicione métodos para cálculos de potências, raízes quadradas e logaritmos.
+40. **Listagem de Divisores**  
+    Leia um número e exiba todos os seus divisores.
 
 ---
 
-## Nível 5 – Tópicos Avançados (Padrões de Projeto, Threads, I/O, Lambdas e Streams)
+## Nível 3: Médio (20 exercícios)
 
-81. **Leitura de Arquivo**  
-    Crie um programa que leia dados de um arquivo de texto e exiba seu conteúdo, tratando possíveis exceções.
+41. **Soma dos Elementos de um Array**  
+    Crie um array de inteiros e calcule a soma de seus elementos.
 
-82. **Escrita em Arquivo**  
-    Desenvolva um programa que escreva dados (por exemplo, uma lista de contatos) em um arquivo de texto.
+42. **Média dos Elementos de um Array**  
+    Crie um array de números e calcule a média dos elementos.
 
-83. **Thread com Extends**  
-    Crie uma classe `ThreadExemplo` que estenda `Thread` e imprima uma mensagem 10 vezes, com um intervalo de 1 segundo entre cada exibição.
+43. **Maior Elemento de um Array**  
+    Encontre o maior valor presente em um array de inteiros.
 
-84. **Implementação de Runnable**  
-    Crie uma classe `RunnableExemplo` que implemente `Runnable` e execute duas threads simultâneas, cada uma exibindo um contador independente.
+44. **Menor Elemento de um Array**  
+    Encontre o menor valor presente em um array de inteiros.
 
-85. **Expressões Lambda**  
-    Crie uma classe `ExpressaoLambda` que utilize expressões lambda para filtrar e exibir os números pares de uma lista de inteiros.
+45. **Busca Linear em Array**  
+    Implemente a busca de um elemento dentro de um array.
 
-86. **Uso de Streams**  
-    Crie um programa que utilize a API de Streams para ler um array de inteiros, filtrar os números pares, mapear para seus quadrados e exibir o resultado.
+46. **Inversão de Array**  
+    Inverta a ordem dos elementos de um array.
 
-87. **Padrão Singleton**  
-    Implemente uma classe `Singleton` seguindo o padrão de projeto Singleton. Teste garantindo que apenas uma instância seja criada.
+47. **Ordenação com Bubble Sort**  
+    Ordene um array de inteiros em ordem crescente utilizando Bubble Sort.
 
-88. **Padrão DAO Simulado**  
-    Crie um programa que simule um sistema de cadastro utilizando o padrão DAO (Data Access Object). Utilize, por exemplo, um `ArrayList` para simular a conexão com um “banco de dados”.
+48. **Ordenação Decrescente**  
+    Ordene um array de inteiros em ordem decrescente.
 
-89. **Padrão Observer**  
-    Crie classes que implementem os padrões `Observavel` e `Observador`. Simule um cenário onde alterações em um objeto notificam outros objetos inscritos.
+49. **Soma dos Elementos de uma Matriz 3x3**  
+    Crie uma matriz 3x3 e calcule a soma de todos os seus elementos.
 
-90. **Uso de Generics**  
-    Crie uma classe genérica `Caixa<T>` que possa armazenar objetos de qualquer tipo e possua um método para exibir seu conteúdo.
+50. **Soma da Diagonal Principal**  
+    Em uma matriz 3x3, calcule a soma dos elementos da diagonal principal.
 
-91. **Sistema de Eventos com Interfaces Funcionais**  
-    Desenvolva um programa que simule um sistema de eventos, onde diferentes tipos de eventos acionam ações específicas utilizando interfaces funcionais e lambdas.
+51. **Inversão de String**  
+    Leia uma string e exiba a mesma string invertida.
 
-92. **Interface Gráfica com Swing**  
-    Crie uma versão avançada do Jogo da Velha (`JogoDaVelhaAdvanced`) com uma interface gráfica simples utilizando a biblioteca Swing.
+52. **Verificação de Palíndromo**  
+    Verifique se uma string é um palíndromo (lida da mesma forma de frente para trás e vice-versa).
 
-93. **Padrão Factory**  
-    Implemente o padrão de projeto Factory para criar objetos de diferentes classes (por exemplo, `Carro`, `Moto`, `Caminhao`) com base em um parâmetro de entrada.
+53. **Contagem de Vogais em String**  
+    Leia uma string e conte quantas vogais ela contém.
 
-94. **Padrão Proxy e Cache**  
-    Crie uma classe `Cache` que utilize um `HashMap` para armazenar resultados de operações custosas e implemente o padrão Proxy para gerenciar o acesso a esses dados.
+54. **Contagem de Ocorrência de Caractere**  
+    Leia uma string e um caractere, e conte quantas vezes o caractere aparece na string.
 
-95. **Jogo Simples com Threads**  
-    Desenvolva um jogo simples (por exemplo, “Snake” ou “Pong”) utilizando threads para controlar a movimentação dos elementos do jogo.
+55. **Extração de Substring**  
+    Leia uma string e, com base em índices informados pelo usuário, extraia uma substring.
 
-96. **Uso de Reflexão**  
-    Crie um programa que, dado o nome de uma classe informado pelo usuário, utilize reflexão para listar todos os métodos dessa classe.
+56. **Fatorial Recursivo**  
+    Implemente uma função recursiva para calcular o fatorial de um número.
 
-97. **Padrão Decorator**  
-    Implemente o padrão Decorator para adicionar funcionalidades a uma classe de forma dinâmica. Por exemplo, adicione comportamentos extras a uma classe `Bebida`.
+57. **Fibonacci Recursivo**  
+    Implemente uma função recursiva que retorne o n-ésimo termo da sequência de Fibonacci.
 
-98. **Chat com Multithreading**  
-    Crie uma classe `SistemaDeChat` que permita a comunicação entre múltiplas threads, simulando um chat. Utilize coleções sincronizadas para gerenciar as mensagens.
+58. **Soma dos Dígitos Recursiva**  
+    Implemente uma função recursiva para somar os dígitos de um número.
 
-99. **Jogo de Adivinhação Paralelo**  
-    Desenvolva uma classe `JogoDeAdivinhacao` que permita que dois jogadores tentem adivinhar um número secreto simultaneamente, utilizando conceitos de multithreading para processar as tentativas.
+59. **Tratamento de Exceção: Divisão por Zero**  
+    Implemente um tratamento de exceção para evitar a divisão por zero.
 
-100. **Sistema Integrado de Pedidos**  
-     Crie um programa que combine os conceitos aprendidos (classes, interfaces, exceções, coleções, streams, lambdas e multithreading) para simular um sistema de gerenciamento de pedidos de uma pizzaria, onde os pedidos são processados e atualizados em tempo real.
+60. **Método para Verificar Número Primo**  
+    Crie um método que receba um número inteiro e retorne se ele é primo ou não.
 
 ---
 
-**Bons estudos e boa prática de programação!**
+## Nível 4: Avançado (20 exercícios)
+
+61. **Merge Sort**  
+    Implemente o algoritmo Merge Sort para ordenar um array de inteiros.
+
+62. **Quick Sort**  
+    Implemente o algoritmo Quick Sort para ordenar um array de inteiros.
+
+63. **Busca Binária**  
+    Implemente a busca binária em um array ordenado de inteiros.
+
+64. **Torres de Hanoi**  
+    Utilize recursão para resolver o problema das Torres de Hanoi para n discos.
+
+65. **Busca em Matriz 2D**  
+    Implemente um algoritmo para procurar um valor específico em uma matriz 2D.
+
+66. **Calculadora Simples com Tratamento de Erros**  
+    Crie uma calculadora que realize as quatro operações básicas e trate possíveis exceções (como divisão por zero).
+
+67. **Validação de Senha**  
+    Escreva um programa que valide uma senha com critérios mínimos (tamanho, presença de letras e números, etc.).
+
+68. **Leitura de Arquivo**  
+    Leia o conteúdo de um arquivo texto e exiba-o na tela.
+
+69. **Escrita em Arquivo**  
+    Crie um programa que salve uma lista de nomes em um arquivo texto.
+
+70. **Contagem de Linhas em Arquivo**  
+    Leia um arquivo e conte quantas linhas ele possui.
+
+71. **Implementação de Lista Ligada**  
+    Crie uma implementação simples de uma lista ligada (linked list).
+
+72. **Implementação de Pilha (Stack)**  
+    Implemente uma pilha utilizando arrays ou lista ligada.
+
+73. **Implementação de Fila (Queue)**  
+    Implemente uma fila utilizando arrays ou lista ligada.
+
+74. **Validação com Expressões Regulares**  
+    Utilize expressões regulares para validar um endereço de e-mail.
+
+75. **Bubble Sort Otimizado**  
+    Implemente uma versão do Bubble Sort que detecte quando o array já está ordenado e interrompa o laço.
+
+76. **Gerador de Números Aleatórios**  
+    Crie um programa que gere 10 números aleatórios entre 1 e 100.
+
+77. **Transposta de Matriz**  
+    Implemente uma função que retorne a transposta de uma matriz.
+
+78. **Cálculo de Média Ponderada**  
+    Leia um conjunto de notas e seus respectivos pesos e calcule a média ponderada.
+
+79. **Calculadora de IMC**  
+    Leia o peso e a altura de uma pessoa, calcule e interprete o Índice de Massa Corporal (IMC).
+
+80. **Contagem de Palavras em um Texto**  
+    Leia um texto e conte quantas palavras ele possui.
+
+---
+
+## Nível 5: Especialista (20 exercícios)
+
+81. **Gerenciamento de Contas Bancárias**  
+    Crie um sistema simples de gerenciamento de contas bancárias utilizando classes e objetos, permitindo depósitos, saques e consulta de saldo.
+
+82. **Sistema de Cadastro de Alunos**  
+    Implemente um sistema que cadastre alunos (nome, matrícula, notas) e exiba o desempenho (média) de cada um.
+
+83. **Jogo da Forca**  
+    Desenvolva o clássico jogo da forca, utilizando arrays e lógica para controle de tentativas.
+
+84. **Sistema de Login**  
+    Implemente um sistema de login que valide usuário e senha, utilizando tratamento de exceções.
+
+85. **Simulação de Caixa Eletrônico**  
+    Crie um sistema que simule um caixa eletrônico, permitindo operações de saque, depósito e consulta de saldo.
+
+86. **Agenda Telefônica**  
+    Desenvolva uma agenda que permita adicionar, remover e buscar contatos.
+
+87. **Gerenciamento de Estoque**  
+    Crie um programa para gerenciar o estoque de produtos, permitindo a adição, remoção e atualização de itens.
+
+88. **Chat Simples**  
+    Desenvolva um sistema simples de chat que simule a troca de mensagens entre dois usuários.
+
+89. **Jogo da Velha**  
+    Implemente o jogo da velha (tic-tac-toe) para dois jogadores com verificação de vitória.
+
+90. **Calculadora Científica**  
+    Crie uma calculadora que ofereça funções avançadas (potência, raiz quadrada, logaritmo etc.) com interface simples.
+
+91. **Conversor de Unidades**  
+    Desenvolva um programa que converta diferentes unidades de medida (ex.: metros para pés, litros para galões).
+
+92. **Analisador de Texto**  
+    Implemente um programa que analise um texto, contando a frequência de cada palavra.
+
+93. **Sistema de Votação**  
+    Crie um sistema que permita votar em candidatos e, ao final, exiba o resultado da votação.
+
+94. **Jogo de Adivinhação com Dicas**  
+    Desenvolva um jogo onde o usuário tenta adivinhar um número gerado aleatoriamente, recebendo dicas se o palpite é maior ou menor.
+
+95. **Validador de CPF**  
+    Implemente um programa que valide um número de CPF utilizando os critérios de verificação.
+
+96. **Simulador de Empréstimo**  
+    Crie um programa que simule o parcelamento de um empréstimo com base no valor, taxa de juros e número de parcelas.
+
+97. **Conversor de Números Romanos**  
+    Implemente um conversor que transforme números inteiros em números romanos e vice-versa.
+
+98. **Sistema de Reservas de Hotel**  
+    Desenvolva um sistema simples para gerenciar reservas de quartos em um hotel.
+
+99. **Agenda de Tarefas**  
+    Crie um programa que permita adicionar, remover e listar tarefas diárias.
+
+100. **Mini Sistema de E-commerce**  
+     Desenvolva um sistema básico de e-commerce que permita o cadastro de produtos, gerenciamento de carrinho e finalização de compra.
+
+---
+
+*Dica:* Para cada exercício, tente desenvolver a solução utilizando os conceitos aprendidos e, se possível, refatore o código para torná-lo mais limpo e eficiente. Bons estudos e muita prática!
+
