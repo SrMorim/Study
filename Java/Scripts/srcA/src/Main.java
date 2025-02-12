@@ -143,7 +143,7 @@ public class Main {
 
         }
 
-        static void ex15() {
+        static void ex14() {
             byte i = 0;
 
             while (i < 5) {
@@ -152,7 +152,7 @@ public class Main {
             }
         }
 
-        static void ex16() {
+        static void ex15() {
             byte i = 0;
 
             while (i < 10) {
@@ -161,13 +161,13 @@ public class Main {
             }
         }
 
-        static void ex17() {
+        static void ex16() {
             for (int i = 0; i < 50; i++) {
                 System.out.println("I WILL BE THE BEST JAVA PROGRAMMER ");
             }
         }
 
-        static void ex18() {
+        static void ex17() {
             for (byte i = 1; i < 52; i++) {
                 System.out.println("card " + i);
                 if (i == 32) {
@@ -177,11 +177,11 @@ public class Main {
             }
         }
 
-        static void ex19() {
+        static void ex18() {
             String[] zmochila = {"machado", "kit médico", "comida", "cantil", "arma", "munição", "roupa reserva", "relógio",};
         }
 
-        static void ex20() {
+        static void ex19() {
             String[] bebidas = { "Guaraná jesus", "Guarana", "Coca", "Pepsi",};
 
             //bebidas[0] = "dolly"; // atualiza a array
@@ -189,7 +189,7 @@ public class Main {
             System.out.println(bebidas[0]);
         }
 
-        static void ex21() {
+        static void ex20() {
             int[] playlistA = {
                     3094234, 12323, 90990, 373737, 128732, 4388934, 2343947, 6548234, 234823, 4568,
                     2345234, 234234, 678768, 6456, 787, 46456, 678567, 354345, 23423, 645745, 23423,
@@ -213,7 +213,7 @@ public class Main {
 
         }
 
-        static void ex22(int temp) {
+        static void ex21(int temp) {
             if (temp >30 ) {
                 System.out.println("Tá calor");
             } else if (temp < 5) {
@@ -223,7 +223,7 @@ public class Main {
             }
         }
 
-        static boolean ex23(int a, int b, int c) {
+        static boolean ex22(int a, int b, int c) {
             int sum = a + b + c;
 
             if (sum == 222) {
@@ -236,11 +236,11 @@ public class Main {
 
         }
 
-        static void ex24(int num) {
+        static void ex23(int num) {
             System.out.println("Vamos retornar para o número" + num);
         }
 
-        static double ex25(String nome, int peso, String unit) {
+        static double ex24(String nome, int peso, String unit) {
             double lua = peso * (1.62/9.81);
 
             System.out.println("Hi " + nome + " Your weight on Earth is " + peso + unit + " and your weight on the moon would be about " + lua);
@@ -249,211 +249,9 @@ public class Main {
         }
     }
 
-    //100 Exercises to Pratice
-    class exercise {
-        //100 Exercícios em Java para praticar.
-        //Level 1: Introdução à Sintaxe e Estruturas Simples//
-        class level1 {
-            static void ex1() {
-                System.out.println("Hello, Wordl!");
-            }
-
-            static void ex2() {
-                String nome = "Felipe";
-                int idade = 18;
-                double altura = 2.00;
-                boolean trabalhando = true;
-                char inicial = 70;
-
-                System.out.println(nome);
-                System.out.println(idade);
-                System.out.println(altura);
-                System.out.println(trabalhando);
-                System.out.println(inicial);
-            }
-
-            static void ex3() {
-                Scanner scanner = new Scanner(System.in);
-                System.out.print("Digite um valor: ");double n = scanner.nextDouble();
-
-                System.out.println("Numero digitado: " + n);
-            }
-
-            static void ex4() {
-                Scanner scanner = new Scanner(System.in);
-                System.out.print("Digite o primeiro número: ");double n1 = scanner.nextDouble();
-                System.out.print("Digite o segundo número: ");double n2 = scanner.nextDouble();
-
-                double sum = n1 + n2;
-
-                System.out.println("A soma ente os número é: " + sum);
-            }
-
-            static void ex5() {
-                Scanner scanner = new Scanner(System.in);
-                System.out.print("Digite o primeiro valor: ");double n1 = scanner.nextDouble();
-                System.out.print("Digite o segundo valor: ");double n2 = scanner.nextDouble();
-
-                double average = (n1 + n2)/2;
-
-                System.out.println("A média entre os dois valores é: " + average);
-            }
-
-            static void ex6() {
-                double c = 28;
-                double f = c * 1.8 + 32;
-
-                System.out.println("Está fazendo: " + f + " Graus Fahrenheit.");
-            }
-
-            static void ex7() {
-                Scanner scanner = new Scanner(System.in);
-                System.out.print("Digite um valor: ");int num = scanner.nextInt();
-
-                int process = num % 2;
-
-                if (process == 0) {
-                    System.out.println("é par");
-                } else {
-                    System.out.println("é ímpar");
-                }
-            }
-
-            static void ex8() {
-                Scanner scanner = new Scanner(System.in);
-                System.out.print("Digite um valor: "); int n = scanner.nextInt();
-
-                int dobro = n * 2;
-                int triplo = n * 3;
-
-                System.out.println("O dobro de " + n + " é: " + dobro);
-                System.out.println("O triplo de " + n + " é: " + triplo);
-            }
-
-            static void ex9() {
-                Scanner scanner = new Scanner(System.in);
-                System.out.print("Qual seu nome?: ");String nome = scanner.nextLine();
-
-                System.out.println("Seja bem vindo, " + nome + "!");
-
-
-
-            }
-
-            static void ex10() {
-                Scanner scanner = new Scanner(System.in);
-                System.out.print("Quantos anos tem?: "); int idade = scanner.nextInt();
-
-                if (idade < 18) {
-                    System.out.println("É menor de idade.");
-                } else {
-                    System.out.println("É maior de idade!");
-                }
-            }
-        }
-
-        //Level 2: Estruturas Condicionais e Laços de Repetição//
-        class level2 {
-            static void ex11() {
-                Scanner scanner = new Scanner(System.in);
-
-                System.out.print("Digite o primeiro valor: "); int n1 = scanner.nextInt();
-                System.out.print("Digite o segundo valor: "); int n2 = scanner.nextInt();
-                System.out.print("Digite o terceiro valor: "); int n3 = scanner.nextInt();
-
-                if (n1 > n2 && n1 > n3) {
-                    System.out.println("o maior número é: " + n1);
-                } else if (n2 > n1 && n2 > n3) {
-                    System.out.println("O maior número é: " + n2);
-                } else {
-                    System.out.println("O maior número é: " + n3);
-                }
-            }
-
-            static void ex12() {
-                Scanner scanner = new Scanner(System.in);
-
-                System.out.print("Digite o primeiro valor: "); int n1 = scanner.nextInt();
-                System.out.print("Digite o segundo valor: "); int n2 = scanner.nextInt();
-                System.out.print("Digite o terceiro valor: "); int n3 = scanner.nextInt();
-
-                if (n1 < n2 && n1 < n3) {
-                    System.out.println("o menor número é: " + n1);
-                } else if (n2 < n1 && n2 < n3) {
-                    System.out.println("O menor número é: " + n2);
-                } else {
-                    System.out.println("O menor número é: " + n3);
-                }
-
-            }
-
-            static void ex13() {
-                Scanner scanner = new Scanner(System.in);
-                System.out.print("Digite o valor: ");int num = scanner.nextInt();
-
-                if (num >= 1 ) {
-                    System.out.println("Valor positivo.");
-                } else if (num == 0) {
-                    System.out.println("Nulo");
-                } else {
-                    System.out.println("Valor negativo.");
-                }
-
-            }
-
-            static void ex14() {
-                Scanner scanner = new Scanner(System.in);
-                System.out.print("Qual tabuada quer ver? (Digite o número): "); int num = scanner.nextInt();
-
-                for (int i = 0; i < 11; i++){
-                    int tab = num * i;
-                    System.out.println(num + "x" + i + "=" + tab);
-                }
-            }
-        }
-
-        //Level 3: Arrays e Strings
-        class level3 {
-            static void ex21() {
-                Scanner scanner = new Scanner(System.in);
-                ArrayList<Integer> numeros = new ArrayList<>();
-
-                for (int i = 0; i < 5; i++) {
-                    System.out.print("Digite um valor: ");int num = scanner.nextInt();
-                    numeros.add(num);
-                }
-
-                System.out.println(numeros);
-
-            }
-
-            static void ex22() {
-                ArrayList<Integer> numeros = new ArrayList<>();
-                Scanner scanner = new Scanner(System.in);
-
-
-
-                for (int i = 0; i < 10; i++) {
-                    System.out.print("Digite um valor: ");int num = scanner.nextInt();
-
-                    int pro = num % 2;
-
-                    if (pro == 0) {
-                        numeros.add(num);
-                    }
-                }
-
-                System.out.println(numeros);
-            }
-
-            static void ex23() {
-                String[] nome = {"Felipe"};
-            }
-        }
-    }
-
+    //Main
     public static void main(String[] args) {
-        //Rodar Tarefas
-        exercise.level2.ex14();
+        //Run Exercises
+        codedex.ex20();
     }
 }
