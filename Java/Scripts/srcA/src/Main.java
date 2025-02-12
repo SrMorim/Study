@@ -1,6 +1,7 @@
 //Libs
 import javax.swing.*;
 import javax.swing.plaf.nimbus.State;
+import java.lang.reflect.Array;
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.ArrayList;
@@ -237,16 +238,17 @@ public class Main {
         static void ex29() {}
 
     }
-    //
+
+    //100 Exercises to Pratice
     class exercise {
         //100 Exercícios em Java para praticar.
         //Level 1: Introdução à Sintaxe e Estruturas Simples//
-        class nivel1 {
-            static void helloWorld() {
+        class level1 {
+            static void ex1() {
                 System.out.println("Hello, Wordl!");
             }
 
-            static void ID() {
+            static void ex2() {
                 String nome = "Felipe";
                 int idade = 18;
                 double altura = 2.00;
@@ -260,14 +262,14 @@ public class Main {
                 System.out.println(inicial);
             }
 
-            static void input() {
+            static void ex3() {
                 Scanner scanner = new Scanner(System.in);
                 System.out.print("Digite um valor: ");double n = scanner.nextDouble();
 
                 System.out.println("Numero digitado: " + n);
             }
 
-            static void sum() {
+            static void ex4() {
                 Scanner scanner = new Scanner(System.in);
                 System.out.print("Digite o primeiro número: ");double n1 = scanner.nextDouble();
                 System.out.print("Digite o segundo número: ");double n2 = scanner.nextDouble();
@@ -277,7 +279,7 @@ public class Main {
                 System.out.println("A soma ente os número é: " + sum);
             }
 
-            static void average() {
+            static void ex5() {
                 Scanner scanner = new Scanner(System.in);
                 System.out.print("Digite o primeiro valor: ");double n1 = scanner.nextDouble();
                 System.out.print("Digite o segundo valor: ");double n2 = scanner.nextDouble();
@@ -287,14 +289,14 @@ public class Main {
                 System.out.println("A média entre os dois valores é: " + average);
             }
 
-            static void fahrenheit() {
+            static void ex6() {
                 double c = 28;
                 double f = c * 1.8 + 32;
 
                 System.out.println("Está fazendo: " + f + " Graus Fahrenheit.");
             }
 
-            static void odd() {
+            static void ex7() {
                 Scanner scanner = new Scanner(System.in);
                 System.out.print("Digite um valor: ");int num = scanner.nextInt();
 
@@ -307,7 +309,7 @@ public class Main {
                 }
             }
 
-            static void triple() {
+            static void ex8() {
                 Scanner scanner = new Scanner(System.in);
                 System.out.print("Digite um valor: "); int n = scanner.nextInt();
 
@@ -318,7 +320,7 @@ public class Main {
                 System.out.println("O triplo de " + n + " é: " + triplo);
             }
 
-            static void welcome() {
+            static void ex9() {
                 Scanner scanner = new Scanner(System.in);
                 System.out.print("Qual seu nome?: ");String nome = scanner.nextLine();
 
@@ -328,7 +330,7 @@ public class Main {
 
             }
 
-            static void age() {
+            static void ex10() {
                 Scanner scanner = new Scanner(System.in);
                 System.out.print("Quantos anos tem?: "); int idade = scanner.nextInt();
 
@@ -340,9 +342,9 @@ public class Main {
             }
         }
 
-        //Nível 2: Estruturas Condicionais e Laços de Repetição//
-        class nivel2 {
-            static void major() {
+        //Level 2: Estruturas Condicionais e Laços de Repetição//
+        class level2 {
+            static void ex11() {
                 Scanner scanner = new Scanner(System.in);
 
                 System.out.print("Digite o primeiro valor: "); int n1 = scanner.nextInt();
@@ -358,7 +360,7 @@ public class Main {
                 }
             }
 
-            static void minor() {
+            static void ex12() {
                 Scanner scanner = new Scanner(System.in);
 
                 System.out.print("Digite o primeiro valor: "); int n1 = scanner.nextInt();
@@ -375,7 +377,7 @@ public class Main {
 
             }
 
-            static void numverify() {
+            static void ex13() {
                 Scanner scanner = new Scanner(System.in);
                 System.out.print("Digite o valor: ");int num = scanner.nextInt();
 
@@ -389,7 +391,7 @@ public class Main {
 
             }
 
-            static void tabuada() {
+            static void ex14() {
                 Scanner scanner = new Scanner(System.in);
                 System.out.print("Qual tabuada quer ver? (Digite o número): "); int num = scanner.nextInt();
 
@@ -400,9 +402,9 @@ public class Main {
             }
         }
 
-        //Nível 3: Arrays e Strings
-        class nivel3 {
-            static void introarray() {
+        //Level 3: Arrays e Strings
+        class level3 {
+            static void ex21() {
                 Scanner scanner = new Scanner(System.in);
                 ArrayList<Integer> numeros = new ArrayList<>();
 
@@ -415,7 +417,7 @@ public class Main {
 
             }
 
-            static void arraypares() {
+            static void ex22() {
                 ArrayList<Integer> numeros = new ArrayList<>();
                 Scanner scanner = new Scanner(System.in);
 
@@ -433,11 +435,15 @@ public class Main {
 
                 System.out.println(numeros);
             }
+
+            static void ex23() {
+                String[] nome = {"Felipe"};
+            }
         }
     }
 
     public static void main(String[] args) {
         //Rodar Tarefas
-        exercise.nivel1.helloWorld();
+        exercise.level3.ex23();
     }
 }
