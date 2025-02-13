@@ -448,10 +448,54 @@ public class Main {
             }
 
         }
+
+        class level2 {
+            static void ex21() {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Digite um valor: ");short n = sc.nextShort();
+
+                int fatorial = 1;
+                for (int i = 1; i < 10; i++) {
+                    fatorial *= i;
+                }
+
+                System.out.println("Fatorial de " + n + " é: " + fatorial);
+            }
+
+            static void ex22() {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Digite o tamanho da sequencia: ");int n = sc.nextShort();
+
+                int p = 0, s = 1;
+
+                for (int i = 0; i < n;i++) {
+                    int pr = p + s;
+                    System.out.print(s + ", ");
+                    p = s;
+                    s = pr;
+                }
+            }
+
+            static void ex23() {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Digite um valor: ");short n = sc.nextShort();
+
+                if (n % 2 == 1) {
+                    System.out.println(n + " é primo");
+                } else {
+                    System.out.println(n + " não é primo");
+                }
+            }
+
+            static void ex24() {
+
+            }
+
+        }
    }
     //Main
     public static void main(String[] args) {
         //Run Exercises
-        exercises.level1.ex17();
+        exercises.level2.ex23();
     }
 }

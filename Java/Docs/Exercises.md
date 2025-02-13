@@ -70,14 +70,14 @@ Esta lista contém 100 exercícios de Java, organizados em 5 níveis de dificuld
 
 ## Nível 2: Intermediário (20 exercícios)
 
-21. **Fatorial Iterativo**  
-    Leia um número inteiro e calcule seu fatorial usando laços de repetição.
+21. ~~Fatorial Iterativo~~  
+    ~~Leia um número inteiro e calcule seu fatorial usando laços de repetição.~~
 
-22. **Série de Fibonacci**  
-    Gere os 10 primeiros termos da sequência de Fibonacci.
+22. ~~Série de Fibonacci~~  
+    ~~Gere os 10 primeiros termos da sequência de Fibonacci.~~
 
-23. **Verificador de Número Primo**  
-    Leia um número inteiro e verifique se ele é primo.
+23. ~~Verificador de Número Primo~~  
+    ~~Leia um número inteiro e verifique se ele é primo.~~
 
 24. **Contagem de Dígitos**  
     Leia um número e determine quantos dígitos ele possui.
