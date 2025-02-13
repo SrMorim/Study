@@ -1,4 +1,5 @@
 //Libs
+import javax.sound.midi.SysexMessage;
 import javax.swing.*;
 import javax.swing.plaf.nimbus.State;
 import javax.swing.plaf.synth.SynthStyleFactory;
@@ -319,12 +320,138 @@ public class Main {
                 System.out.println("a média desses valores é: " + m);
             }
 
-            static void ex8() {}
+            static void ex8() {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Digite um número(está em String): ");String nString = sc.nextLine();
+                int n = Integer.parseInt(nString);
+                System.out.print("String convertido para número * 15: " + n / 15);
+            }
+
+            static void ex9() {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Digite o primeiro valor: ");byte n1 = sc.nextByte();
+                System.out.print("Digite o segundo valor: ");byte n2 = sc.nextByte();
+
+                if (n1 > n2) {
+                    System.out.println("O primeiro valor é maior: " + n1);
+                } else {
+                    System.out.println("O segundo valor é maior: " + n2);
+                }
+            }
+
+            static void ex10() {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Digite o primeiro valor: ");byte n1 = sc.nextByte();
+                System.out.print("Digite o segundo valor: ");byte n2 = sc.nextByte();
+
+                if (n1 < n2) {
+                    System.out.println("O primeiro valor é maior: " + n1);
+                } else {
+                    System.out.println("O segundo valor é maior: " + n2);
+                }
+            }
+
+            static void ex11() {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Insira o primeiro valor: "); short a = sc.nextShort();
+                System.out.print("Insira o segundp valor: "); short b = sc.nextShort();
+
+                int sum = a + b;
+                int sub = a - b;
+                int mult = a * b;
+                int div = a / b;
+
+                System.out.println("a soma dos valores: " + sum);
+                System.out.println("a subtração dos valores: " + sub);
+                System.out.println("a multiplicação dos valores: " + mult);
+                System.out.println("a divisão dos valores: " + div);
+            }
+
+            static void ex12() {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Qual tabuada quer ver?: "); int n = sc.nextInt();
+                for (int i = 1; i < 11; i++) {
+                    System.out.println(n + "X" + i + "=" + n*i);
+                }
+            }
+
+            static void ex13() {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Digite sua idade: "); short i = sc.nextShort();
+
+                if (i < 18) {
+                    System.out.println("Menor de idade");
+                } else {
+                    System.out.println("Maior de idade");
+                }
+            }
+
+            static void ex14() {
+                Scanner sc = new Scanner(System.in);
+                System.out.println("Digite o valor: "); short n = sc.nextShort();
+                int n2 = n*n;
+                System.out.println(n + " ao quadrado é: " + n2 );
+            }
+
+            static void ex15() {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Digite o valor: ");short n = sc.nextShort();
+                int n3 = n*n*n;
+                System.out.println(n + " ao cubo é: " + n3);
+            }
+
+            static void ex16() {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Quantos metros?: "); short m = sc.nextShort();
+
+                int cm = m * 10 * 10;
+
+                System.out.print(m + " em cm é: " + cm);
+            }
+
+            static void ex17() {
+                Scanner sc = new Scanner(System.in);
+
+                System.out.print("Digite um valor: "); short n = sc.nextByte();
+
+                int n_1= n-1;
+                int n1 = n+1;
+
+                System.out.println("Seu anterior: " + n_1);
+                System.out.println("Seu sucessor: " + n1);
+            }
+
+            static void ex18() {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Qual o tamanho dos lados?: ");short l = sc.nextShort();
+                int p = 4 * l;
+                System.out.println("O perímetro do quadrado é: " + l);
+            }
+
+            static void ex19() {
+                Scanner sc = new Scanner(System.in);
+                System.out.print("insira o raio: "); short r = sc.nextShort();
+
+                double a = 3.14 * r;
+
+                System.out.println("A circuferência do círculo é: " +  a);
+            }
+
+            static void ex20(){
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Digite a distancia total em km: ");Short d = sc.nextShort();
+                System.out.print("Digite a velocidade estimada em km: ");Short v = sc.nextShort();
+
+                int t = d/v;
+
+                System.out.println("O tempo estimado é de: " + t + "Horas");
+            }
+
         }
-    }
+   }
     //Main
     public static void main(String[] args) {
         //Run Exercises
-        exercises.level1.ex7();
+        exercises.level1.ex17();
     }
 }
