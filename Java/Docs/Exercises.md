@@ -27,44 +27,44 @@ Esta lista contém 100 exercícios de Java, organizados em 5 níveis de dificuld
 7. ~~Média Aritmética~~  
    ~~Leia três números e calcule a média aritmética.~~
 
-8. **Conversão de String para Número**  
-   Converta um valor digitado como string para um número inteiro e exiba o resultado.
+8. ~~Conversão de String para Número~~  
+   ~~Converta um valor digitado como string para um número inteiro e exiba o resultado.~~
 
-9. **Maior de Dois Números**  
-   Leia dois números e exiba o maior entre eles.
+9. ~~Maior de Dois Números~~  
+   ~~Leia dois números e exiba o maior entre eles.~~
 
-10. **Menor de Dois Números**  
-    Leia dois números e exiba o menor entre eles.
+10. ~~Menor de Dois Números~~  
+    ~~Leia dois números e exiba o menor entre eles.~~
 
-11. **Operações Básicas**  
-    Leia dois números e mostre o resultado da soma, subtração, multiplicação e divisão.
+11. ~~Operações Básicas~~  
+    ~~Leia dois números e mostre o resultado da soma, subtração, multiplicação e divisão.~~
 
-12. **Tabuada**  
-    Exiba a tabuada (de 1 a 10) de um número informado pelo usuário.
+12. ~~Tabuada~~  
+    ~~Exiba a tabuada (de 1 a 10) de um número informado pelo usuário.~~
 
-13. **Verificação de Maioridade**  
-    Leia a idade de uma pessoa e informe se ela é maior de idade (18 anos ou mais).
+13. ~~Verificação de Maioridade~~  
+    ~~Leia a idade de uma pessoa e informe se ela é maior de idade (18 anos ou mais).~~
 
-14. **Quadrado de um Número**  
-    Leia um número e exiba o seu quadrado.
+14. ~~Quadrado de um Número~~  
+    ~~Leia um número e exiba o seu quadrado.~~
 
-15. **Cubo de um Número**  
-    Leia um número e exiba o seu cubo.
+15. ~~Cubo de um Número~~  
+    ~~Leia um número e exiba o seu cubo.~~
 
-16. **Conversão de Metros para Centímetros**  
-    Converta um valor em metros para centímetros.
+16. ~~Conversão de Metros para Centímetros~~  
+    ~~Converta um valor em metros para centímetros.~~
 
-17. **Antecessor e Sucessor**  
-    Leia um número e exiba seu antecessor e seu sucessor.
+17. ~~Antecessor e Sucessor~~  
+    ~~Leia um número e exiba seu antecessor e seu sucessor.~~
 
-18. **Cálculo do Perímetro de um Quadrado**  
-    Leia o lado de um quadrado e calcule seu perímetro.
+18. ~~Cálculo do Perímetro de um Quadrado~~  
+    ~~Leia o lado de um quadrado e calcule seu perímetro.~~
 
-19. **Cálculo da Circunferência**  
-    Leia o raio de um círculo e calcule sua circunferência (use π = 3.14).
+19. ~~Cálculo da Circunferência~~  
+    ~~Leia o raio de um círculo e calcule sua circunferência (use π = 3.14).~~
 
-20. **Tempo de Viagem**  
-    Leia a distância a ser percorrida e a velocidade média; calcule o tempo de viagem.
+20. ~~Tempo de Viagem~~  
+    ~~Leia a distância a ser percorrida e a velocidade média; calcule o tempo de viagem.~~
 
 ---
 
