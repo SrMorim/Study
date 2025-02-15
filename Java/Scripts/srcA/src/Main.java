@@ -1,9 +1,5 @@
 //Libs
-import javax.sound.midi.SysexMessage;
 import javax.swing.*;
-import javax.swing.plaf.nimbus.State;
-import javax.swing.plaf.synth.SynthStyleFactory;
-import java.lang.reflect.Array;
 import java.util.*;
 
 //Code
@@ -525,6 +521,25 @@ public class Main {
 
     class SoloStudies {
         static void ex1() {
+            int idade = 18;
+            String nome = "Felipe";
+            System.out.printf("%s tem %d \n", nome, idade);
+
+            //int = %d
+            //float/double = %f
+            //char = %c
+            //String = %s
+            //boolean = %e
+            //hex (int) = %x
+            //octal(int) = %o
+            //hashcode = %h
+        }
+
+        static void ex2() {
+            Scanner sc = new Scanner(System.in);
+            int idade = 10;
+            String sidade = String.valueOf(idade);
+            System.out.println(idade + idade);
         }
    }
 
@@ -549,6 +564,6 @@ public class Main {
    //Main
     public static void main(String[] args) {
         //Run Exercises
-        Exercises.level2.ex25();
+        SoloStudies.ex2();
     }
 }
