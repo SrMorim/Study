@@ -4,14 +4,13 @@ import javax.swing.*;
 import javax.swing.plaf.nimbus.State;
 import javax.swing.plaf.synth.SynthStyleFactory;
 import java.lang.reflect.Array;
-import java.util.Scanner;
-import java.util.Arrays;
-import java.util.ArrayList;
+import java.util.*;
 
 //Code
 public class Main {
+
     //Codedéx Exercises
-    class codedex {
+    class Codedex {
         static void ex1() {
             System.out.println("EU AMO JAVA");
         }
@@ -252,7 +251,7 @@ public class Main {
     }
 
     //100 Exercises
-    class exercises {
+    class Exercises {
         class level1 {
             static void ex1() {
                 System.out.println("Hello, World!");
@@ -488,14 +487,68 @@ public class Main {
             }
 
             static void ex24() {
-
+                Scanner sc = new Scanner(System.in);
+                System.out.print("valor: "); int n = sc.nextInt();
+                String nStr = String.valueOf(n); //Num > Str
+                System.out.println(n + " possui " + nStr.length() + " digitos");
             }
 
+            static void ex25() {
+                /*Scanner sc = new Scanner(System.in);
+                System.out.print("valor: ");int n = sc.nextInt();
+
+                String nStr = String.valueOf(n);
+                int n2 = nStr.length();
+
+                System.out.println("A quantidade de digitos que n tem é: " + n2 );
+
+                int p = 1, s = 2;
+                int pro = p + s;
+
+                for (int i = 0; i < n2;i++) {
+                    p = s;
+                    s = pro;
+                }
+                System.out.print("A soma dos dos dígitos é: " + pro);*/ //Corrigir.
+            }
+
+            static void ex26() {
+                /*Scanner sc = new Scanner(System.in);
+                System.out.print("Digite um valor: ");int n = sc.nextInt();
+
+                String nStr = String.valueOf(n);
+
+                System.out.println("Valor invertido: " + nStr);*/
+            }
         }
    }
-    //Main
+
+    class SoloStudies {
+        static void ex1() {
+        }
+   }
+
+    class CodinGame{
+        class Solutions{
+            static void ex1() {
+                Scanner in = new Scanner(System.in);
+                String g = in.nextLine();
+                int a = in.nextInt();
+
+                if (g.equals("M") && a >= 18 && a < 35){
+                    System.out.println("May go to the military");
+                } else if (g.equals("F") || g.equals("M") && a < 18) {
+                    System.out.println("Can't go to the military");
+                } else if (g.equals("M") && a > 35) {
+                    System.out.println("Was already in the military");
+                }
+            }
+        }
+    }
+
+   //Main
     public static void main(String[] args) {
         //Run Exercises
-        exercises.level2.ex23();
+        Exercises.level2.ex25();
     }
 }

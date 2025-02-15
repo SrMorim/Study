@@ -79,8 +79,8 @@ Esta lista contém 100 exercícios de Java, organizados em 5 níveis de dificuld
 23. ~~Verificador de Número Primo~~  
     ~~Leia um número inteiro e verifique se ele é primo.~~
 
-24. **Contagem de Dígitos**  
-    Leia um número e determine quantos dígitos ele possui.
+24. ~~Contagem de Dígitos~~  
+    ~~Leia um número e determine quantos dígitos ele possui.~~
 
 25. **Soma dos Dígitos**  
     Leia um número e exiba a soma de todos os seus dígitos.
