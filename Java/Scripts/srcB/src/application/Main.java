@@ -61,7 +61,7 @@ public class Main {
         sc.close();
     }
 
-    public static void main(String[] args) {
+    public static void std() {
         Scanner sc = new Scanner(System.in);
         Student student = new Student();
 
@@ -72,6 +72,17 @@ public class Main {
 
         System.out.println("Final grade: " + student.finalGrade());
         student.result();
+
+        sc.close();
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Locale.setDefault(Locale.US);
+
+        System.out.print("Valor do dolar: "); Calculator.doll = sc.nextDouble();
+        System.out.print("Quantos dolares quer comprar?: "); Calculator.qtdoll = sc.nextDouble();
+        System.out.print("Vai custar: R$" + Calculator.convertbrl());
 
         sc.close();
     }
