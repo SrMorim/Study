@@ -18,6 +18,8 @@ Toda vez que inicio o aprendizado de uma nova linguagem de programação, regist
         }
     }
 
+- **SQL**:
+    CREATE DATABASE Hello_World;
 ---
 
 ## Como Usar Este Repositório
