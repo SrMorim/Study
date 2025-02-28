@@ -4,7 +4,7 @@ import entities.*;
 import java.util.*;
 public class Main {
 
-    static void tri() {
+    static void ex1() {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
@@ -26,7 +26,7 @@ public class Main {
         sc.close();
     }
 
-    static void ret() {
+    static void ex2() {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
         Retangulo x = new Retangulo();
@@ -41,7 +41,7 @@ public class Main {
         sc.close();
     }
 
-    static void emp() {
+    static void ex3() {
         Scanner sc = new Scanner(System.in);
         Funcionario employee = new Funcionario();
 
@@ -61,7 +61,7 @@ public class Main {
         sc.close();
     }
 
-    static void std() {
+    static void ex4() {
         Scanner sc = new Scanner(System.in);
         Student student = new Student();
 
@@ -76,7 +76,7 @@ public class Main {
         sc.close();
     }
 
-    static void convert() {
+    static void ex5() {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
@@ -87,53 +87,7 @@ public class Main {
         sc.close();
     }
 
-    static void bank() {
-        //Deve limpar o buffer de entrada
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter account number: ");int acc = sc.nextInt();
-        System.out.print("Enter account holder: ");String hacc = sc.nextLine();
-        Account account = new Account(hacc, acc);
-
-        System.out.printf("Entrando na conta %d pertencente ao %s", acc, hacc);
-
-
-
-        sc.close();
-    }
-
     public static void main(String[] args) {
-        //Sistema para adicionar produtos em um estoque.
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Sistema de adição de produtor no estoque (digite 0 para sair):");
-        int n = 1;
-        int qtd = 0;
-
-        while (n != 0){
-            System.out.print("Adicionar produto?: "); n = sc.nextInt();
-            sc.nextLine();
-
-            if (n == 0) {
-                break;
-            }
-
-            System.out.print("Nome do produto: "); String pnome = sc.nextLine();
-            System.out.print("Valor do produto: "); double pvalor = sc.nextDouble();
-            System.out.print("Quantidade para armazenar: "); int quantidade = sc.nextInt();
-
-            Stock produto = new Stock(pnome, pvalor, quantidade);
-            System.out.printf("produto %s no valor de %.2f adicionado a quantidade de %d no estoque.\n", pnome, pvalor, quantidade);
-
-            qtd++;
-
-
-        }
-        System.out.printf("Você registrou %d produtos diferentes no estoque.", qtd);
-        System.out.printf("Os produtos adicionados foram: ");
-
-
-        sc.close();
 
     }
 }
