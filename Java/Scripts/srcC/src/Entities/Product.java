@@ -1,16 +1,29 @@
 package Entities;
 
 public class Product {
-    public String name;
-    public double price;
-    public int quantity;
+    private String name;
+    private double price;
+    private int quantity;
 
+    //Construtores
     public Product(String name, double price, int quantity) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
     }
 
+    //Setter e Getters
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+
+
+    //Funções
     public double totalValueInStock() {
         return price * quantity;
     }
@@ -26,4 +39,5 @@ public class Product {
     public String toString() { //qualquer outro nome, caso printe somente o objeto, ele vai retornar o espaço reservado na memória, mas se sobrescrever o toString, ele converte o espaço na memória para a mensagem personalizada.
         return name + ", $" + String.format("%.2f", price) + ", " + quantity + " units, total: $" + String.format("%.2f", totalValueInStock());
     }
+
 }
