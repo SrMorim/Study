@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/.studies.iml" filepath="$PROJECT_DIR$/.idea/.studies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/srcA/srcA.iml" filepath="$PROJECT_DIR$/Java/srcA/srcA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/srcB/srcB.iml" filepath="$PROJECT_DIR$/Java/srcB/srcB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/srcC/srcC.iml" filepath="$PROJECT_DIR$/Java/srcC/srcC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/srcD/srcD.iml" filepath="$PROJECT_DIR$/Java/srcD/srcD.iml" />
+    </modules>
+  </component>
+</project>
