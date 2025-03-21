@@ -31,33 +31,3 @@ REFERENCES tb_editora (cd_editora);
 ALTER TABLE tb_livro
 ADD CONSTRAINT fk_genero FOREIGN KEY (cd_genero)
 REFERENCES tb_genero (cd_genero);
-
--- Popular
-insert into tb_editora (
-	cd_editora,
-    editora)
-value(1, "abenti");
-
-insert into  tb_genero (
-	cd_genero,
-    genero)
-value(1, "ficcao");
-
-insert into tb_livro (
-	isbn,
-	titulo,
-	cd_editora,
-	cd_genero,
-	preco,
-	dt_livro)
-VALUES(2, "seila", 1, 1, 10.99, "2025-10-2");
-
--- Selects / Update
-select * from tb_livro;
-
-UPDATE tb_livro
-SET preco = '500.00'
-WHERE isbn = 2;
-
-
-
