@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1584711f-47a0-4c9a-8813-0f1a35e8d75a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Java/srcA/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/srcA/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/srcA/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/srcA/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/srcA/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/srcA/src/applications/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/srcA/src/entities/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/srcA/src/entities/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/srcA/src/entities/Funcionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/srcA/src/entities/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/srcA/src/entities/Retangulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/srcA/src/entities/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/srcA/src/entities/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/srcA/srcA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/srcB/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/srcB/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/srcB/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/MVCPython/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/MVCPython/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/MVCPython/controller/main_controller.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/MVCPython/model/usuario.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/MVCPython/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/MVCPython/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/MVCPython/templates/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/MVCPython/tests/test_usuario.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/MVCPython/view/main_view.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/srcA.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/srcB.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/srcC.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/srcD.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/srcE.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SQL/bancoRH.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SQL/biblioteca.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SQL/clientes.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/Exercises/bella/biografia.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/Exercises/bella/contato.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/Exercises/bella/imgs/capa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/Exercises/bella/imgs/foto1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/Exercises/bella/imgs/foto2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/Exercises/bella/imgs/foto3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/Exercises/bella/imgs/fundo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/Exercises/bella/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/Exercises/bella/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/Exercises/unes/contato.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/Exercises/unes/imgs/capa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/Exercises/unes/imgs/fundo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/Exercises/unes/imgs/fundo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/Exercises/unes/imgs/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/Exercises/unes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/Exercises/unes/somos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/cssBattle/Easy/battle1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/cssBattle/Easy/battle2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/cssBattle/Easy/battle3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/fundamentos/CSS/ex1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/fundamentos/CSS/ex2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/fundamentos/CSS/ex3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/fundamentos/CSS/ex4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/fundamentos/CSS/ex5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/fundamentos/HTML/ex1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/fundamentos/HTML/ex2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/fundamentos/HTML/ex3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Web/fundamentos/HTML/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:dev" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="G3AlOrNC" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2vGkW5g7kdpt3e1Tw59l3r5my8z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cargo.Run.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.first.attach.projects": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run --package srcA --bin srcA" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1584711f-47a0-4c9a-8813-0f1a35e8d75a" name="Changes" comment="" />
+      <created>1743778826614</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743778826614</updated>
+      <workItem from="1743778827791" duration="608000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
