@@ -23,6 +23,7 @@ def ex2():
     print(f"{nome} tem {altura} de altura, pesa {peso} e seu IMC é {imc}")
 
 def ex3():
+    print("commit")
     
     
 
