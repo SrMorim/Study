@@ -5,7 +5,7 @@ import sys
 
 #-= Interfaces =-#
 def menu ():
-    print(".")
+    print("commit test")
 
 
 if __name__ == "__main__":
